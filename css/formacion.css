@@ -1,0 +1,35 @@
+.formacion__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formacion__item{
+    margin: 30px 50px 70px 50px;
+}
+
+.formacion__p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.formacion__img{
+    margin-top: 10px;
+    width: 180px;
+    height: 110px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 600px){
+    .formacion__section{
+        margin-top: 30px;
+    }
+    .formacion__container{
+        flex-direction: column;
+    }
+    .formacion__item{
+        margin: 20px 0px 20px 0px;
+    }
+}

@@ -1,0 +1,65 @@
+.sobreMi__section{
+    margin-bottom: 30px;
+}
+
+.sobreMi__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.sobreMi__img{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.sobreMi__div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sobreMi__info{
+    margin-bottom: 20px;
+}
+
+.link{
+    background-color: lightgray;
+    border: 3px solid gray;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.sobreMi__logo{
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .sobreMi__container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .sobreMi__div{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    .sobreMi__redes{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        justify-content: center;
+    }
+    .sobreMi__img{
+        margin-bottom: 20px;
+    }
+}

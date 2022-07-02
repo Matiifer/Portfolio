@@ -1,0 +1,28 @@
+.contacto__h3{
+    text-align: center;
+    font-weight: 500;
+	font-size: 1.5em;
+    margin: 10px 0 10px 0;
+}
+
+.contacto__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto__input{
+    width: 45%;
+	padding: 10px;
+	border-radius: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: solid 3px gray;
+    background-color: lightgray;
+    resize: none;
+}
+
+.contacto__input::placeholder{
+    color: black;
+}

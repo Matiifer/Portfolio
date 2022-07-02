@@ -1,0 +1,29 @@
+.habilidades__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.habilidades__item{
+    text-align: center;
+    margin: 10px 50px 70px 50px;
+    border: 1px;
+    box-shadow: 2.5px 2px gray;
+}
+
+.habilidades__img{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width: 600px){
+    .habilidades__container{
+        align-items: initial;
+        text-align: center;
+    }
+    .habilidades__item{
+        margin: 30px 30px 30px 30px;
+    }
+}
